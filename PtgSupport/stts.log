@@ -1,0 +1,87 @@
+
+Processor is Pentium
+Select area:  7, Table in Use: C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ0001V.TMP     (Readonly) Alias: LOGS_
+            Code page:   1251
+            Memo file:   C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ0001W.TMP
+       Lock(s): Exclusive USE
+
+Currently Selected Table:
+Select area: 11, Table in Use: C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ0001O.TMP    Alias: DB__
+            Code page:   1251
+       Lock(s): Exclusive USE
+
+Select area:  9, Table in Use: C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ0001M.TMP    Alias: BSKI_
+            Code page:   1251
+       Lock(s): Exclusive USE
+
+Select area:  4, Table in Use: D:\VFP\PTGSUPPORT\DB.DBF    Alias: DB
+            Code page:   1251
+       Lock(s): <none>
+
+Select area:  5, Table in Use: D:\VFP\PTGSUPPORT\SUPPORT.DBF    Alias: SUPPORT
+            Code page:   1251
+       Lock(s): <none>
+
+Select area:  3, Table in Use: C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ0000B.TMP    Alias: XLR_
+            Code page:   1251
+       Lock(s): Exclusive USE
+
+Select area:  2, Table in Use: C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ0000A.TMP    Alias: TASKS_
+            Code page:   1251
+       Lock(s): Exclusive USE
+
+Select area:  1, Table in Use: C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ00008.TMP    Alias: LOGS_GLOBAL
+            Code page:   1251
+            Memo file:   C:\USERS\STOYAN\APPDATA\LOCAL\TTEMP\1UJ00009.TMP
+       Lock(s): Exclusive USE
+
+Procedure file: FTP.FXP
+Class libraries: D:\VFP\ACC\LIBS\TOOLS.VCX ALIAS TOOLS, D:\VFP\PTGSUPPORT\PTGSUPP.VCX ALIAS PTGSUPP
+File search path: 
+Default directory: D:\VFP\PTGSUPPORT
+Print file/device:  
+Work area   =   11
+Margin      =    0
+Decimals    =    6
+Memowidth   =   50
+Typeahead   =   20
+Blocksize   =   64
+Reprocess   =  Automatic
+Refresh     = 0,5 SECONDS
+DDE Timeout =    2000
+DDE Safety  = on
+
+Code page: 1251
+Collating sequence: Machine
+Compiler code page: 1251
+Date format: YMD
+Macro Hot Key = 
+UDF parameters are passed by: VALUE
+On Error:        DO ErrLog WITH ERROR(),PROG(),LINE(), MESSAGE(),MESSAGE(1), SYS(2018)
+On Shutdown:     do ShutDown
+ON KEY LABEL hot keys:
+F12                 do sspnd
+F9                  do stts
+Textmerge Options
+          Delimiters:  Left = <<  Right = >>
+          Show
+
+Alternate  - off    Brstatus   - off    Compatible - off    Device     - scrn   Fields     - off    Intensity  - on     Near       - off    Safety     - off    Textmerge  - off 
+ANSI       - off    Carry      - off    Confirm    - on     Echo       - off    Fixed      - off    Lock       - off    Null       - off    Space      - on     Title      - off 
+Asserts    - off    Century    - on     Console    - off    Escape     - off    Fullpath   - on     Logerrors  - on     Optimize   - on     Status Bar - on     Unique     - off 
+Bell       - off    Clear      - on     Cursor     - on     Exact      - off    Heading    - on     Mouse      - on     Print      - off    Sysmenus   - off 
+Blink      - on     Color      - on     Deleted    - on     Exclusive  - off    Help       - on     Multilocks - on     Readborder - off    Talk       - off 
+
+
+
+
+Declared DLLs:
+CopyFile                                            C:\WINDOWS\System32\KERNEL32.DLL
+CreateSemaphore                                     C:\WINDOWS\System32\KERNEL32.DLL
+GetActiveWindow                                     c:\windows\system32\user32.dll
+GetLastError                                        C:\WINDOWS\System32\KERNEL32.DLL
+GetVolumeInformation                                C:\WINDOWS\System32\KERNEL32.DLL
+InternetCheckConnection                             c:\windows\system32\wininet.dll
+SetForegroundWindow                                 c:\windows\system32\user32.dll
+ShellExecute                                        c:\windows\system32\shell32.dll
+ShowWindow                                          c:\windows\system32\user32.dll

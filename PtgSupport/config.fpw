@@ -1,0 +1,44 @@
+* Русская кодовая страница
+CODEPAGE=1251
+TITLE="PtgSupport"
+* Порядок сортировки русский
+*COLLATE=RUSSIAN
+COLLATE=MACHINE
+CENTURY=ON
+HOUR=24
+SECONDS=ON
+DECIMALS=6
+safety=off
+* Количество используемых переменных - очень важная установка.
+MVCOUNT=2048
+* Установка возможности блокировки нескольких записей
+MULTILOCKS=ON
+* Обработка сетевых блокировок
+REPROCESS=AUTOMATIC
+* Формат даты - привычный для нас - DD.MM.YYYY
+*** DATE=GERMAN
+DATE=DMY
+* Каталог по умолчанию
+*DEFAULT=
+* Использование клавиш SHIFT+CTRL+ALT
+OUTSHOW=ON
+* Необходимые пути к компонентам проекта
+* Файл ресурсов
+RESOURCE=PtgSupport
+* Использование ресурсов
+RESOURCE=On
+* Совместимость с 2000 годом
+STRICTDATE=0
+* Стиль используемых сочетаний клавиш
+KEYCOMP=WINDOWS
+
+delete=ON
+* Отключение компонентов - ускоряет загрузку
+_GENGRAPH=""
+*_GENMENU=""
+_GENPD=""
+_GENSCRN=""
+*_GENXTAB=""
+_FOXGRAPH=""
+_FOXDOC=""
+_STARTUP="d:\vfp\PtgSupport\SStart.prg"
